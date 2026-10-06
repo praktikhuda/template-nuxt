@@ -64,6 +64,9 @@ template-nuxt/
 └── .pheee/                                  # Knowledge base & panduan kepatuhan operasional AI
     ├── AGENTS.md                            # Entry protocol & petunjuk agen AI
     ├── changelog.md                         # Log riwayat modifikasi & pembaruan sistem oleh AI
+    ├── history_chat/                        # Log append-only jejak tugas & dataset coding mistakes
+    │   ├── log-2026-10-03.md                # Log jejak instruksi & output harian
+    │   └── mistakes_dataset.md              # Dataset evaluasi bug & pola clean code
     ├── command.md                           # Kamus kata kunci perintah dan batasan tindakan AI
     ├── contracts.md                         # Spesifikasi envelope & payload API REST
     ├── rules.md                             # Panduan arsitektur, etika token, dan standar kode

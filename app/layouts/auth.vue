@@ -1,5 +1,5 @@
-﻿<script setup>
-import { SunMoon, Check, Coins } from "lucide-vue-next";
+<script setup>
+import { SunMoon, Check, LayoutDashboard } from "lucide-vue-next";
 
 const currentTheme = ref('system');
 
@@ -37,11 +37,11 @@ onMounted(() => {
     <header class="w-full px-6 py-4 flex justify-between items-center z-10">
       <div class="flex items-center gap-2.5">
         <div class="w-9 h-9 rounded-xl bg-primary/15 text-primary flex items-center justify-center font-bold shadow-sm">
-          <Coins class="size-5" />
+          <LayoutDashboard class="size-5" />
         </div>
         <div class="flex flex-col">
-          <span class="font-bold text-base-content text-lg tracking-tight">Jejak Dana</span>
-          <span class="text-xs text-base-content/60">Multi-Platform Wallet & Expense Tracker</span>
+          <span class="font-bold text-base-content text-lg tracking-tight">Template Nuxt</span>
+          <span class="text-xs text-base-content/60">Modern Starter Kit & Dashboard Template</span>
         </div>
       </div>
 
@@ -81,7 +81,7 @@ onMounted(() => {
 
     <!-- Footer -->
     <footer class="w-full px-6 py-4 text-center text-xs text-base-content/50 z-10">
-      <p>&copy; 2026 Jejak Dana. Multi-Platform Wallet & Smart Reconciliation.</p>
+      <p>&copy; 2026 Template Nuxt. Powered by Nuxt 4 & DaisyUI.</p>
     </footer>
   </div>
 </template>

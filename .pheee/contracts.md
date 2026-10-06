@@ -1,6 +1,6 @@
 ﻿# Data & API Contracts
 
-Dokumen acuan kontrak komunikasi data antara frontend **Jejak Dana** dan backend REST API.
+Dokumen acuan kontrak komunikasi data antara frontend **Template Nuxt** dan backend REST API.
 
 ---
 

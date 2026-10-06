@@ -1,4 +1,4 @@
-﻿<script setup>
+<script setup>
 import { UserPlus, User, Mail, Lock, Eye, EyeOff, ArrowRight } from "lucide-vue-next";
 
 definePageMeta({
@@ -127,7 +127,7 @@ onMounted(() => {
           </div>
           <h1 class="text-xl font-bold text-base-content tracking-tight">Buat Akun Baru</h1>
           <p class="text-xs text-base-content/60 mt-1">
-            Daftarkan akun untuk mulai mengelola keuangan Anda.
+            Daftarkan akun untuk mulai mengakses dan mengelola dashboard aplikasi.
           </p>
         </div>
 

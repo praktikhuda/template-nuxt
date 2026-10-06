@@ -1,4 +1,4 @@
-﻿// https://nuxt.com/docs/api/configuration/nuxt-config
+// https://nuxt.com/docs/api/configuration/nuxt-config
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
@@ -16,8 +16,8 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      titleTemplate: "%s · Jejak Dana",
-      title: "Jejak Dana",
+      titleTemplate: "%s · Template Nuxt",
+      title: "Template Nuxt",
       htmlAttrs: {
         lang: "id",
         "data-theme": "light",
@@ -28,23 +28,23 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Aplikasi Manajemen Keuangan Pribadi (Multi-Platform Wallet & Smart Reconciliation) dengan dukungan BSI, Bank Jago, ShopeePay, DANA, dan Cash.",
+            "Starter kit dan template aplikasi web modern berbasis Nuxt 4, Vue 3, DaisyUI v5, dan Tailwind CSS v4.",
         },
         {
           name: "keywords",
           content:
-            "Jejak Dana, Keuangan Pribadi, Expense Tracker, Multi-Wallet, Rekonsiliasi Saldo, BSI, Jago, ShopeePay, DANA, Cash",
+            "Template Nuxt, Nuxt 4, Vue 3, DaisyUI, Tailwind CSS, Starter Kit, Dashboard, Admin",
         },
-        { name: "author", content: "Jejak Dana" },
+        { name: "author", content: "Template Nuxt" },
         { name: "theme-color", content: "#059669" },
         {
           property: "og:title",
-          content: "Jejak Dana - Smart Personal Finance & Multi-Wallet Tracker",
+          content: "Template Nuxt - Modern Dashboard & Web App Starter Kit",
         },
         {
           property: "og:description",
           content:
-            "Kelola saldo multi-platform bank & e-wallet, catat pengeluaran berbukti struk, dan rekonsiliasi saldo presisi tanpa selisih.",
+            "Starter kit dan template aplikasi web modern berbasis Nuxt 4, Vue 3, DaisyUI v5, dan Tailwind CSS v4.",
         },
         { property: "og:type", content: "website" },
       ],
